@@ -1,0 +1,148 @@
+.dishes {
+    padding-top: 120px;
+    &__bunner {
+        margin: 0 auto;
+    }
+    &__title {
+        padding-top: 47px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0.05em;
+        color: var(--white-color);
+        text-transform: uppercase;
+    }
+    &__btn {
+        display: block;
+        width: 171px;
+        height: 51px;
+        background-color: var(--orange-color);
+        border-radius: 5px;
+        color: var(--white-color);
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 15px 0;
+        margin: 50px auto;
+        &:hover {
+            color: var(--white-color);
+        }
+    }
+}
+
+.slider {
+    position: relative;
+    &__page {
+        display: grid;
+        grid-template-columns: 450px 450px;
+        column-gap: 100px;
+        row-gap: 57px;
+        justify-content: center;
+        padding: 80px 0 25px 0;
+    }
+    &__item {
+        width: 450px;
+        display: grid;
+        grid-template-columns: 110px 315px;
+        column-gap: 25px;
+    }
+    &__items {
+        position: relative;
+        display: grid;
+        color: var(--white-color);
+        &-dish {
+            padding-top: 5px;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        &-portion {
+            font-weight: 500;
+            font-size: 14px;
+            color: var(--orange-color);
+        }
+        &-btn {
+            position: absolute;
+            right: 0;
+            width: 84px;
+            height: 38px;
+            border: solid 2px var(--orange-color);
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.05em;
+            color: var(--white-color);
+            text-align: center;
+            padding: 8px 0 9px 0;
+            text-transform: uppercase;
+            background-color: rgba(0, 0, 0, 0);
+            &:hover {
+                background-color: var(--orange-color);
+                transition: all .3s;
+            }
+        }
+        &-text {
+            padding-top: 10px;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+}
+
+
+//КЛАССЫ СЛАЙДЕРА
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/* Стрелки */
+.slider .slick-arrow.slick-prev{
+    background: url(../img/icons/slider/prev-arrow.svg) 45% 50% / 20% no-repeat;
+    left: 15%;
+    z-index: 999;
+    background-color: var(--orange-color);
+}
+.slider .slick-arrow.slick-next{
+    background: url(../img/icons/slider/next-arrow.svg) 50% 50% / 20% no-repeat;
+    right: 15%;
+    z-index: 999;
+    background-color: var(--orange-color);
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--orange-color);
+    border-radius: 5px;
+}
+
+/* Точки */
+.slider .slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider .slick-dots li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+.slider .slick-dots li.slick-active button{
+    background-color: var(--orange-color);
+}
+.slider .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--orange-color);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0;
+}
