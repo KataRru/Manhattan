@@ -1,0 +1,86 @@
+.afisha {
+    position: relative;
+    &__bunner {
+        margin: 70px auto 0 auto;
+    }
+    &__title {
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 60px;
+        color: var(--white-color);
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    &__events {
+        position: relative;
+        margin: 80px 0 150px 0;
+        display: grid;
+        grid-template-columns: 306px 306px 306px 306px;
+        column-gap: 25px; 
+        row-gap: 25px;
+        justify-content: center;
+        align-items: center;
+        &-item {
+            position: relative;
+            transition: all .3s;
+            &:hover img {
+                opacity: .2;
+                transition: all .3s;
+                cursor: pointer;
+            }
+            &:hover .afisha__events-inner{
+                display: block;
+                cursor: pointer;
+            }
+        }
+        &-inner {
+            display: none;
+            position: absolute;
+            top: 190px;
+            left: 30px;
+        }
+        &-time {
+            width: 175px;
+            height: 35px;
+            padding: 8px 0;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--white-color);
+            background-color: var(--orange-color);
+            border-radius: 5px;
+        }
+        &-name {
+            margin: 15px 0;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-price {
+            padding: 7px 0;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            color: var(--white-color);
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            width: 84px;
+            height: 38px;
+            border: solid 2px var(--orange-color);
+            border-radius: 5px;
+            &:hover {
+                background-color: var(--orange-color);
+                transition: all .3s;
+            }
+        }
+    }
+}

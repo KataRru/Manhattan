@@ -37,6 +37,7 @@ body {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     text-align: center;
+    margin: 0 auto
 }
 
 //Import Blocks
@@ -47,6 +48,7 @@ body {
 @import 'blocks/techriders';
 @import 'blocks/footer';
 @import 'blocks/policy';
+@import 'blocks/afisha';
 
 //Import Base
 @import 'base/variables';
