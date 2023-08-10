@@ -1,0 +1,13 @@
+.foodmenu {
+    margin: 100px 0 150px 0;
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 40px;
+        color: var(--white-color);
+        letter-spacing: 0.05;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
