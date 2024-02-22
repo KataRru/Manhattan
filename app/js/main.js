@@ -5,6 +5,13 @@ $(document).ready(function() {
     });
 });
 
+//Gallery
+document.querySelectorAll('.gallery__items img').forEach(img =>{
+    img.onclick = () => {
+        document.querySelector('.pop-up').style.display = 'block';
+        document.querySelector('.pop-up img').src = img.getAttribute('src');
+    }
+});
 
 
 // TABS
