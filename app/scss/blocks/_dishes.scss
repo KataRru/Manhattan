@@ -1,5 +1,5 @@
 .dishes {
-    padding-top: 120px;
+    padding: 120px 0 50px 0;
     &__title {
         padding-top: 47px;
         text-align: center;
@@ -20,7 +20,7 @@
         text-align: center;
         text-transform: uppercase;
         padding: 15px 0;
-        margin: 50px auto;
+        margin: 50px auto 0 auto;
         &:hover {
             color: var(--white-color);
         }

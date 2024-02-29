@@ -10,6 +10,11 @@
         text-align: center;
         padding: 0 45px;
     }
+    &__img {
+        img {
+            border-radius: 8px;
+        }
+    }
     &__tourists {
         width: 416px;
         min-height: 500px;
