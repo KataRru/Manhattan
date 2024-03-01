@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANHATTAN</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="img/icons/favicons/favicons.ico">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a class="header__logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <menu>
+                    <ul class="header__menu">
+                        <li class="header__menu-items"><a class="header__menu-link" href="index.html">Главная</a></li>
+                        <li class="header__menu-items"><a class="header__menu-link" href="foodmenu.html">Меню</a></li>
+                        <li class="header__menu-items"><a class="header__menu-link" href="afisha.html">Афиша</a></li>
+                        <li class="header__menu-items"><a class="header__menu-link" href="corporate.html">Сотрудничество</a></li>
+                        <li class="header__menu-items"><a class="header__menu-link" href="gallery.html">Галерея</a></li>
+                        <li class="header__menu-items"><a class="header__menu-link" href="#">Новости</a></li>
+                    </ul>
+                </menu>
+                <button class="header__btn">бронирование</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="promo">
+        <div class="container">
+            <div class="promo__wrapper">
+                <div class="promo__general"><img src="img/promo/Underground.jpg" alt=""></div>
+                <div class="promo__afisha-content">
+                    <div class="promo__btn">
+                        <button class="promo__btn-tabs" type="button" data-tab="#tab_1">Ближайшие</button>
+                        <button class="promo__btn-tabs" type="button" data-tab="#tab_2">Скоро</button>
+                    </div>
+                    <div class="promo__afisha-pages">
+                        <div class="promo__afisha-page hide" id="tab_1">
+                            <div class="promo__afisha-immediate">
+                                <img class="promo__afisha-img" src="img/promo/afisha_one.png" alt="one">
+                                <img class="promo__afisha-img" src="img/promo/afisha_two.png" alt="two">
+                                <img class="promo__afisha-img" src="img/promo/afisha_three.png" alt="three">
+                                <img class="promo__afisha-img" src="img/promo/afisha_four.png" alt="four">
+                            </div>
+                        </div>
+                        <div class="promo__afisha-page hide" id="tab_2">
+                            <div class="promo__afisha-soon">
+                                <img class="promo__afisha-img" src="img/promo/afisha_four.png" alt="four">
+                                <img class="promo__afisha-img" src="img/promo/afisha_one.png" alt="one">
+                                <img class="promo__afisha-img" src="img/promo/afisha_three.png" alt="three">
+                                <img class="promo__afisha-img" src="img/promo/afisha_two.png" alt="two">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="dishes"> 
+        <div class="container">
+            <div class="dishes__wrapper">
+                <div class="dishes__bunner top">Top “Manhattan” menu</div>
+                <h2 class="dishes__title">кухня</h2>
+                <div class="slider">
+                    <div class="slider__page">
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/salad.jpg" alt="salad"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/toast.jpg" alt="toast"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/roast.jpg" alt="roast"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/porridge.jpg" alt="porridge"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/cake.jpg" alt="cake"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/vegetables.jpg" alt="vegetables"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/burger.jpg" alt="burger"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/burger_two.jpg" alt="burger"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider__page">
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/salad.jpg" alt="salad"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/toast.jpg" alt="toast"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/roast.jpg" alt="roast"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/porridge.jpg" alt="porridge"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/cake.jpg" alt="cake"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/vegetables.jpg" alt="vegetables"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/burger.jpg" alt="burger"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/burger_two.jpg" alt="burger"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__page">
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/salad.jpg" alt="salad"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/toast.jpg" alt="toast"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/roast.jpg" alt="roast"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/porridge.jpg" alt="porridge"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/cake.jpg" alt="cake"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/vegetables.jpg" alt="vegetables"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/burger.jpg" alt="burger"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img"><img src="img/dishes/burger_two.jpg" alt="burger"></div>
+                            <div class="slider__items">
+                                <div class="slider__items-dish">amet donec.</div>
+                                <div class="slider__items-portion">200г</div>
+                                <button class="slider__items-btn">550р</button>
+                                <p class="slider__items-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="foodmenu.html" class="dishes__btn">Все меню</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <div class="events__wrapper">
+                <div class="events__banquets">
+                    <div class="events__bunner top">top “manhattan” events</div>
+                    <h2 class="events__title">Банкеты</h2>
+                    <div class="events__text">
+                        <p class="events__paragraph">
+                            Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.
+                        </p>
+                        <p class="events__paragraph">
+                            Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.
+                        </p>
+                        <p class="events__paragraph">
+                            Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.
+                        </p>
+                    </div>
+                    <a href="#" class="events__btn">Подробнее</a>
+                </div>
+                <div class="events__img"><img src="img/events.jpg" alt="events"></div>
+                <div class="events__tourists">
+                    <div class="events__bunner top">top “manhattan” tourists</div>
+                    <h2 class="events__title">Туристы</h2>
+                    <div class="events__text">
+                        <p class="events__paragraph">
+                            Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.
+                        </p>
+                        <p class="events__paragraph">
+                            Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.
+                        </p>
+                        <p class="events__paragraph">
+                            Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.
+                        </p>
+                    </div>
+                    <a href="#" class="events__btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="techriders">
+        <div class="continer">
+            <div class="techriders__wrapper">
+                <div class="techriders__bunner top">top “manhattan” party</div>
+                <h2 class="techriders__title">техрайдер</h2>
+                <div class="techriders__inner">
+                    <div class="techriders__list">
+                        <details class="techriders__list-dropdown">
+                            <summary class="techriders__list-title">
+                                Loudspeakers
+                                <img class="techriders__list-droparrow" src="img/icons/slider/drop-arrow.svg" alt="drop">
+                            </summary>
+                            <ul class="techriders__list-item">
+                                <li class="techriders__list-items">Acoustic system BELL Top 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Mid 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Sub 1000W x 2</li>
+                                <li class="techriders__list-items">Front monitor Yamaha SM12V 300w x 2</li>
+                                <li class="techriders__list-items">Backside monitor Dynacord 500W x 2</li>
+                            </ul>
+                        </details>
+                        <details class="techriders__list-dropdown">
+                            <summary class="techriders__list-title">
+                                Amplifier
+                                <img class="techriders__list-droparrow" src="img/icons/slider/drop-arrow.svg" alt="drop">
+                            </summary>
+                            <ul class="techriders__list-item">
+                                <li class="techriders__list-items">Acoustic system BELL Top 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Mid 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Sub 1000W x 2</li>
+                                <li class="techriders__list-items">Front monitor Yamaha SM12V 300w x 2</li>
+                                <li class="techriders__list-items">Backside monitor Dynacord 500W x 2</li>
+                            </ul>
+                        </details>
+                        <details class="techriders__list-dropdown">
+                            <summary class="techriders__list-title">
+                                FOH
+                                <img class="techriders__list-droparrow" src="img/icons/slider/drop-arrow.svg" alt="drop">
+                            </summary>
+                            <ul class="techriders__list-item">
+                                <li class="techriders__list-items">Acoustic system BELL Top 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Mid 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Sub 1000W x 2</li>
+                                <li class="techriders__list-items">Front monitor Yamaha SM12V 300w x 2</li>
+                                <li class="techriders__list-items">Backside monitor Dynacord 500W x 2</li>
+                            </ul>
+                        </details>
+                        <details class="techriders__list-dropdown">
+                            <summary class="techriders__list-title">
+                                Backline
+                                <img class="techriders__list-droparrow" src="img/icons/slider/drop-arrow.svg" alt="drop">
+                            </summary>
+                            <ul class="techriders__list-item">
+                                <li class="techriders__list-items">Acoustic system BELL Top 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Mid 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Sub 1000W x 2</li>
+                                <li class="techriders__list-items">Front monitor Yamaha SM12V 300w x 2</li>
+                                <li class="techriders__list-items">Backside monitor Dynacord 500W x 2</li>
+                            </ul>
+                        </details>
+                        <details class="techriders__list-dropdown">
+                            <summary class="techriders__list-title">
+                                Microphone set
+                                <img class="techriders__list-droparrow" src="img/icons/slider/drop-arrow.svg" alt="drop">
+                            </summary>
+                            <ul class="techriders__list-item">
+                                <li class="techriders__list-items">Acoustic system BELL Top 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Mid 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Sub 1000W x 2</li>
+                                <li class="techriders__list-items">Front monitor Yamaha SM12V 300w x 2</li>
+                                <li class="techriders__list-items">Backside monitor Dynacord 500W x 2</li>
+                            </ul>
+                        </details>
+                        <details class="techriders__list-dropdown">
+                            <summary class="techriders__list-title">
+                                DJ equipment
+                                <img class="techriders__list-droparrow" src="img/icons/slider/drop-arrow.svg" alt="drop">
+                            </summary>
+                            <ul class="techriders__list-item">
+                                <li class="techriders__list-items">Acoustic system BELL Top 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Mid 600W x 2</li>
+                                <li class="techriders__list-items">Acoustic system BELL Sub 1000W x 2</li>
+                                <li class="techriders__list-items">Front monitor Yamaha SM12V 300w x 2</li>
+                                <li class="techriders__list-items">Backside monitor Dynacord 500W x 2</li>
+                            </ul>
+                        </details>
+                    </div>
+                    
+                    <div class="techriders__soundengin">
+                        <h3 class="techriders__soundengin-title">Звукорежиссеры клуба МАНХЭТТЕН</h3>
+                        <div class="techriders__soundengin-item">
+                            <div class="techriders__soundengin-items">
+                                <img class="techriders__soundengin-img" src="img/profile/Izotov.jpg" alt="Izotov">
+                                <div class="techriders__soundengin-name">Изотов Константин</div>
+                                <div class="techriders__soundengin-social">
+                                    <a href="#" class="techriders__soundengin-icons"><img src="img/icons/vk.svg" alt="vk"></a>
+                                    <a href="#" class="techriders__soundengin-icons"><img src="img/icons/telegram.svg" alt="telegram"></a>
+                                </div>
+                            </div>
+                            <div class="techriders__soundengin-items">
+                                <img class="techriders__soundengin-img" src="img/profile/David.jpg" alt="David">
+                                <div class="techriders__soundengin-name">Давид Хозиев</div>
+                                <div class="techriders__soundengin-social">
+                                    <a href="#" class="techriders__soundengin-icons"><img src="img/icons/vk.svg" alt="vk"></a>
+                                    <a href="#" class="techriders__soundengin-icons"><img src="img/icons/telegram.svg" alt="telegram"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__bunner top">top “manhattan” place</div>
+                <h2 class="footer__title">контакты</h2>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-info">
+                        <div class="footer__contacts-address">
+                            <h3 class="footer__contacts-subtitle">адрес</h3>
+                            <p class="footer__contacts-text">Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</p>
+                        </div>
+                        <div class="footer__contacts-phone">
+                            <h3 class="footer__contacts-subtitle">телефон</h3>
+                            <a class="footer__contacts-links" href="tel:78127131945">+7 (812) 713-1945</a>
+                        </div>
+                        <div class="footer__contacts-working">
+                            <h3 class="footer__contacts-subtitle">режим работы</h3>
+                            <p class="footer__contacts-text">Ежедневно с 12:00 до 06:00</p>
+                        </div>
+
+                        <hr class="footer__contacts-line">
+                        
+                        <div class="footer__contacts-general">
+                            <h3 class="footer__contacts-subtitle">директор</h3>
+                            <a class="footer__contacts-links" href="79219635550">Лидия Эмильевна, +7(921) 963-55-50</a>
+                            <h3 class="footer__contacts-subtitle">арт-директор</h3>
+                            <a class="footer__contacts-links" href="79819894330">Илиния Ионашко, +7(981) 989-43-30</a>
+                        </div>
+                    </div>
+                    <div class="footer__contacts-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.7237680053263!2d30.32822642811338!3d59.92518275645842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631aa6e3b3193%3A0xe7c54da95407a617!2z0L3QsNCx0LXRgNC10LbQvdCw0Y8g0YDQtdC60Lgg0KTQvtC90YLQsNC90LrQuCwgOTDQujEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4MA!5e0!3m2!1sru!2sua!4v1685011015662!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <hr class="footer__line">
+                <div class="footer__copyright">
+                    <div class="footer__copyright-policy">Copyright © 2022. <a class="footer__copyright-link" href="policy.html">Все права защищены.</a></div>
+                    <div class="footer__copyright-dev">Разработано d-e-n.ru</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+</html>
