@@ -29,10 +29,11 @@
         }
         &-immediate {
             display: grid;
-            grid-template-columns: 207px 207px;
-            grid-template-rows: 210px 210px;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
             row-gap: 26px;
             img {
+                width: 75%;
                 margin: auto;
             }
         }

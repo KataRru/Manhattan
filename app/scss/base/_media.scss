@@ -1,5 +1,11 @@
 @media (max-width:1200px) {
+    .slider .slick-arrow.slick-prev{
+        right: 95%;
+    }
 
+    .slider .slick-arrow.slick-next{
+        left: 95%;
+    }
 }
 
 @media (max-width:992px) {
@@ -14,10 +20,6 @@
     .promo__afisha-page {
         width: 40%;
     } 
-
-    .promo__afisha-immediate {
-        grid-template-columns: 184px 184px;  
-    }
 
     .promo__afisha-soon {
         grid-template-columns: 184px 184px;
@@ -66,6 +68,10 @@
     }
     .techriders__list {
         width: 300px; 
+    }
+
+    .footer__contacts-subtitle {
+        margin: 30px 0 25px 0;
     }
 
     .footer {
