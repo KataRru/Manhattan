@@ -1,0 +1,83 @@
+.promo {
+    margin-top: 70px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-height: 540px;
+    }
+    &__general {
+        img {
+            width: 100%;
+            min-height: 540px;
+            border-radius: 8px;
+        }
+    }
+    &__afisha {
+        &-content {
+            width: 416px;
+            min-height: 502px;
+            margin-left: 24px;
+        }
+        &-page {
+            position: absolute;
+            width: 416px;
+            min-height: 500px;
+            background-color: rgba(213, 98, 29, 0.05);
+            border-radius: 0 0 5px 5px;
+            padding-top: 20px;
+        }
+        &-immediate {
+            display: grid;
+            grid-template-columns: 207px 207px;
+            grid-template-rows: 210px 210px;
+            row-gap: 26px;
+            img {
+                margin: auto;
+            }
+        }
+        &-soon {
+            position: absolute;
+            display: grid;
+            grid-template-columns: 207px 207px;
+            grid-template-rows: 210px 210px;
+            row-gap: 26px;
+            img {
+                margin: auto;
+            }
+        }
+    }
+
+    &__btn {
+        display: flex;
+        &-tabs {
+            width: 208px;
+            height: 40px;
+            background-color: rgba(213, 98, 29, 0.05);
+            border-radius: 5px 5px 0 0;
+            border: none;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--white-color);
+            text-align: center;
+            padding: 9.5px 0;
+            cursor: pointer;
+        }
+    }
+
+
+
+.hide {
+    display: none;
+}
+.promo__btn-tabs.active {
+    background-color: rgba(213, 98, 29, 0.1);
+}
+.promo__afisha-page.active{
+    display: block;
+    background-color: rgba(213, 98, 29, 0.1);
+}
+
+}

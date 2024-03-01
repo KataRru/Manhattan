@@ -1,0 +1,87 @@
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+    .promo__general img {
+        width: 555px;
+    }
+
+    .promo__afisha-content {
+        width: 40%;
+    }
+
+    .promo__afisha-page {
+        width: 40%;
+    } 
+
+    .promo__afisha-immediate {
+        grid-template-columns: 184px 184px;  
+    }
+
+    .promo__afisha-soon {
+        grid-template-columns: 184px 184px;
+    }
+
+    .slider__page {
+        grid-template-columns: 416px 451px;
+        column-gap: 65px;
+    }
+
+    .slick-arrow {
+        display: none;
+    }
+
+    .events__title {
+        padding: 20px 0 20px 0;
+        font-size: 35px;
+    }
+
+    .events__banquets {
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    .events__tourists {
+        width: 275px;
+        padding: 0 10px;
+    }
+
+    .events__img img {
+        width: 400px 
+    }
+
+    .techriders {
+        margin: 100px auto 0 auto;
+    }
+
+    .techriders__inner {
+        display: flex;
+        column-gap: 100px;
+        justify-content: center;
+    }
+
+    .techriders__list-dropdown {
+        width: 300px;
+    }
+    .techriders__list {
+        width: 300px; 
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:480px) {
+    
+}
+
+@media (max-width:320px) {
+    
+}

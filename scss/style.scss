@@ -1,0 +1,59 @@
+//Import Libs
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
+
+//Styles
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+}
+
+hr, h1, h2, h3, h4, h5, h5, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #210E09;
+}
+
+.top {
+    width: 245px;
+    height: 38px;
+    padding: 9px 0 8px 0;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto
+}
+
+//Import Blocks
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/dishes';
+@import 'blocks/events';
+@import 'blocks/techriders';
+@import 'blocks/footer';
+@import 'blocks/policy';
+@import 'blocks/afisha';
+@import 'blocks/corporate';
+@import 'blocks/foodmenu';
+@import 'blocks/gallery';
+
+//Import Base
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/media';
