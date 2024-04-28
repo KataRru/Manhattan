@@ -1,3 +1,11 @@
+//BURGER
+$(document).ready(function () {
+    $('.header__burger').click(function(event) {
+        $('.header__burger,.header__menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    })
+})
+
 //SLIDER
 $(document).ready(function() {
     $('.slider').slick({
@@ -5,7 +13,7 @@ $(document).ready(function() {
     });
 });
 
-// TABS
+//TABS
 const tabsBtn = document.querySelectorAll(".promo__btn-tabs");
 const tabsItems = document.querySelectorAll(".promo__afisha-page");
 
